@@ -1,0 +1,16 @@
+C:\Tutorials\WepApi\Advantage.API\obj\Debug\netcoreapp2.0\Advantage.API.csprojAssemblyReference.cache
+C:\Tutorials\WepApi\Advantage.API\obj\Debug\netcoreapp2.0\Advantage.API.AssemblyInfoInputs.cache
+C:\Tutorials\WepApi\Advantage.API\obj\Debug\netcoreapp2.0\Advantage.API.AssemblyInfo.cs
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\Advantage.API.deps.json
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\Advantage.API.runtimeconfig.json
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\Advantage.API.runtimeconfig.dev.json
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\Advantage.API.dll
+C:\Tutorials\WepApi\Advantage.API\bin\Debug\netcoreapp2.0\Advantage.API.pdb
+C:\Tutorials\WepApi\Advantage.API\obj\Debug\netcoreapp2.0\Advantage.API.dll
+C:\Tutorials\WepApi\Advantage.API\obj\Debug\netcoreapp2.0\Advantage.API.pdb
