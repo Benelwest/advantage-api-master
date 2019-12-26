@@ -70,7 +70,7 @@ namespace Advantage.API
                     names.Add(name);
 
                     customers.Add(new Customer{
-                        Id = i,
+                       // Id = i,
                         Name = name,
                         Email = Helpers.MakeCustomerEmail(name),
                         State = Helpers.GetRandomState()
@@ -103,7 +103,7 @@ namespace Advantage.API
                     var completed = Helpers.GetRandomOrderCompleted(placed);
 
                     orders.Add(new Order{
-                        Id = i,
+                       // Id = i,
                         Customer = _ctx.Customer.First(c => c.Id == randCustomerId),
                         OrderTotal = Helpers.GetRandomOrderTotal(),
                         Placed = placed,
@@ -119,48 +119,48 @@ namespace Advantage.API
             return new List<Server>()
             {
                 new Server{
-                    Id = 1,
+                    // Id = 1,
                     Servername = "Dev-Web",
                     IsOnline = true
                 },
                  new Server{
-                    Id = 2,
+                    // Id = 2,
                     Servername = "Dev-Mail",
                     IsOnline = false
                 },
                  new Server{
-                    Id = 3,
+                     //Id = 3,
                     Servername = "Dev-Services",
                     IsOnline = true
                 },
                 new Server{
-                    Id = 4,
+                    // Id = 4,
                     Servername = "QA-Web",
                     IsOnline = true
                 },
                  new Server{
-                    Id = 5,
+                    // Id = 5,
                     Servername = "QA-Mail",
                     IsOnline = false
                 },
                  new Server{
-                    Id = 6,
+                    // Id = 6,
                     Servername = "QA-Services",
                     IsOnline = true
                 },
 
                 new Server{
-                    Id = 7,
+                    // Id = 7,
                     Servername = "Prod-Web",
                     IsOnline = true
                 },
                  new Server{
-                    Id = 8,
+                    // Id = 8,
                     Servername = "Prod-Mail",
                     IsOnline = false
                 },
                  new Server{
-                    Id = 9,
+                    // Id = 9,
                     Servername = "Prod-Services",
                     IsOnline = true
                 }
