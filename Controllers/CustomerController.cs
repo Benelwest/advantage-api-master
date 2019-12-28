@@ -16,7 +16,7 @@ namespace Advantage.API.Models
         }
 
         [HttpGet]
-        public ActionResult Get()
+        public ActionResult Get(int pageIndex, int pageSize)
         {
             var data = _ctx.Customer.OrderBy( c => c.Id);
             return Ok(data);
@@ -42,7 +42,6 @@ namespace Advantage.API.Models
             return CreatedAtRoute("GetCustomer", new { id = customer.Id }, customer);
 
          }
-
 
     }
 

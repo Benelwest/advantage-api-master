@@ -12,12 +12,12 @@ namespace Advantage.API.Models
 
         public OrderController (ApiContext ctx)
         {
-            _ctx = ctx;
-            
+            _ctx = ctx;            
         }
+        
         // GET api/order/pageNumber/pageSize
-        [HttpGet("{pageIndex:int/pageSize:int}") ]
-        public IActionResult Get (int pageIndex, int pageSize)
+        [HttpGet("{pageIndex:int}/{pageSize:int}")]
+        public IActionResult GetOrder (int pageIndex, int pageSize)
         {
             var data =  _ctx.Orders.Include(o => o.Customer).OrderByDescending(c => c.Placed);
             var page = new PaginatedResponse<Order>(data, pageIndex, pageIndex);
@@ -65,8 +65,8 @@ namespace Advantage.API.Models
         [HttpGet("GetOrder/{id}", Name="GetOrder")]
         public IActionResult GetOrder(int id)
         {
-
-            var order = _ctx.Orders.Include(o => o.Customer).First(o => o.Id == id);
+            var order = _ctx.Orders.Include(o => o.Customer)
+            .First(o => o.Id == id);
             return Ok (order);
         }
 
